@@ -2682,12 +2682,12 @@
         }
       },
       "links": {},
-      "address": "0x4dFF3D40a71f05d4d9213B2efF5cf6dba258Ec8d",
-      "transactionHash": "0x896927d490ba9d2b72fd1acaab1617e777f943544febfde042e77f10754569b6"
+      "address": "0xa6b0E0A089C07394C023104Eb01Ba2Ed16EAfafA",
+      "transactionHash": "0x9f5a9ec8405ffd697493196c17ecdafb4b95de6461e13a6fac8312af5ecd863c"
     }
   },
   "schemaVersion": "3.0.19",
-  "updatedAt": "2019-12-08T03:27:18.316Z",
+  "updatedAt": "2019-12-09T02:35:04.092Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

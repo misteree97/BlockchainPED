@@ -133,6 +133,30 @@ App = {
   }
 };
 
+function sendTransaction(){
+  console.log("ENTER SENDTRANSACTION");
+  var senderID = '0x3f9e109b4f0c98bde3c9d00a274354f3ca14ae0d'
+  var receiverID = '0x975163F1e8B56dBdE2f8f3bc0dD41CF58187f89E';  
+  var transactionAmount = "1000000000000000000";
+  var txnObject = {
+    "from":senderID,
+    "to":receiverID,
+    "value": 100000000000000000,
+    // gas: web3.utils.toHex(21000),
+    // gasLimit: web3.utils.toHex(web3.utils.toWei('10', 'gwei')) 
+        
+  }
+  web3.eth.sendTransaction(txnObject, function(error, result){
+    if(error){
+      console.log("TRANSACTION ERROR", error);
+    }
+    else{
+      console.log("TRANSACTION SUCCESS" + result)
+    }
+  })
+}
+
+
 $(function() {
   $(window).load(function() {
     App.init();
