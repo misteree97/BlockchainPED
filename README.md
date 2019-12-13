@@ -1,6 +1,9 @@
 # BlockchainPED
-Final Project: Phil Abangan, Elliot Lohr, David Hausen
-Running Instructions (Let us know if you cannot run it.):
+Final Project: Philip Abangan, Elliot Lohr, David Hausken
+
+Compilation Instructions (Let us know if you cannot run it.):
+
+Instructions for setting up the testnet are on the paper (It's difficult to describe in a few steps.)
 
 1. Install Ganache at https://www.trufflesuite.com/ganache
 2. (Assuming Chrome is used) Download Metamask from  the chrome store at https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en
